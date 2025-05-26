@@ -157,7 +157,7 @@ export default function Player()
     angularDamping={ 0.5 }
     >
         <mesh castShadow>
-            <sphereGeometry args={ [ 0.4, 64, 64 ] } />
+            <icosahedronGeometry args={ [ 0.3, 1 ] } />
             <meshPhysicalMaterial
                 map={ texture }
                 toneMapped={ false }
